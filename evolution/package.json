@@ -1,0 +1,24 @@
+{
+  "author": "Julian Duniec <julian.duniec@gmail.com>",
+  "name": "minesweepers",
+  "description": "Sweep the mines",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "test": "nodeunit tests",
+    "start" : "node app.js"
+  },
+  "dependencies": {
+    "neural-node" : "0.0.2",
+    "websocket"   : "1.0.4",
+    "express"     : "3.0.x",
+    "express-controller"  : "0.1.x",
+    "underscore"      : "1.3.x",
+    "jade"          : "0.27.x",
+    "config"        : "0.4.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}

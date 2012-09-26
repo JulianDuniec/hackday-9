@@ -1,0 +1,9 @@
+{
+	"webserver" : {
+		"port" : 8080,
+		"uploadDirectory" : "public/uploads"
+	},
+	"database" : {
+		"host" : "mongodb://localhost/nodejs-bootstrap_DEV"
+	}
+}
